@@ -28,6 +28,6 @@ app.listen(port, () => {
 //Rutas
 // AUTH crear,login, renwe token
 app.use("/api/auth", require("./routes/auth"));
+// CRUD: Eventos
 app.use("/api/events", require("./routes/events"));
 
-//CRUD eventos
